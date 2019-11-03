@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <link rel="stylesheet" href="/static/buyer/AmazeUI-2.4.2/assets/css/amazeui.min.css" />
+    <link href="/static/buyer/css/dlstyle.css" rel="stylesheet" type="text/css">
+    <script src="/static/buyer/AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
+    <script src="/static/buyer/AmazeUI-2.4.2/assets/js/amazeui.min.js"></script>
+
+</head>
+
+<body>
+    <div class="login-boxtitle">
+        <a href="home/demo.html"><img alt="" src="/static/buyer/images/logobig.png" /></a>
+    </div>
+
+    <div class="res-banner">
+        <div class="res-main">
+            <div class="login-banner-bg"><span></span><img src="/static/buyer/images/big.jpg" /></div>
+            <div class="login-box">
+                <div class="am-tabs" id="doc-my-tabs">
+                    <h3 class="title" style="font-size: 25px">注册</h3>
+                    <div class="am-tabs-bd">
+                        <div class="am-tab-panel am-active">
+                            <form method="post" onsubmit="return examine()">
+                                <div class="user-email">
+                                    <label for="email"><i class="am-icon-envelope-o"></i></label>
+                                    <input type="email" name="email" id="email" placeholder="请输入邮箱账号">
+                                </div>
+                                <div class="user-pass">
+                                    <label for="password"><i class="am-icon-lock"></i></label>
+                                    <input type="password" name="pw" id="password" placeholder="设置密码">
+                                </div>
+                                <div class="user-pass">
+                                    <label for="passwordRepeat"><i class="am-icon-lock"></i></label>
+                                    <input type="password" name="pwr" id="passwordRepeat" placeholder="确认密码">
+                                </div>
+
+                                <div style="float: left;font-size: 11px">
+                                    <input id="checkbox" name="xiao" type="checkbox" style="width: 16px;height: 16px" checked="checked" onclick="change1()">
+                                    <span>点击表示您同意商城《服务协议》</span>
+                                    <p></p>
+                                    <br>
+                                </div>
+
+                                <div class="am-cf">
+                                    <input id="submit" type="submit" name="" value="注册" class="am-btn am-btn-primary am-btn-sm am-fl">
+                                </div>
+                            </form>
+                            <div class="login-links">
+                                <a href="/Buyer/login/" class="am-fr">已有账号？请登录！！！</a>
+                                <br>
+                                <div class="am-cf" style="color: red">
+                                    {{ hint }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer ">
+            <div class="footer-hd ">
+                <p>
+                    <a href="/">商城首页</a>
+                    <b>|</b>
+                    <a href="https://www.alipay.com/">支付宝</a>
+                    <b>|</b>
+                </p>
+            </div>
+            <div class="footer-bd ">
+                <p>
+                    <a href="#">合作伙伴</a>
+                    <a href="#">联系我们</a>
+                    <em>© 2019- zhanli.com 版权所有 - Collect from</em>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function change1() {
+            if ($("#checkbox").attr("checked") == true) {
+                $("#submit").show();
+            }
+            else {
+                document.getElementById("submit").disabled = true;
+                alert('必须同意才能注册哦，请刷新网页继续注册')
+            }
+        }
+    </script>
+</body>
+</html>
