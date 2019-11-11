@@ -36,6 +36,10 @@ def photo(url):
             return 'images'
     except:
         print("执行出错")
+
+#分类选择
+
+
 # 数据解析
 def parse_content(tree):
     shop_info_list = tree.xpath('//div[@class="ml-wrap"]/div[2]/ul/li')
@@ -45,7 +49,7 @@ def parse_content(tree):
         url = shop_info.xpath('./div[@class="gl-i-wrap"]/div[@class="p-name p-name-type-2"]/a/@href')[0]
         p_url = shop_info.xpath("./div[@class='gl-i-wrap']/div[@class='p-img']/a/img/@source-data-lazy-img")[0]
         photo_url = 'https:' + p_url
-        c_picture = photo(photo_url)
+        # c_picture = photo(photo_url)
         if not 'https:' in url:
             full_url = 'https:'+url
         else:
@@ -53,28 +57,38 @@ def parse_content(tree):
         tree = request_content_x(full_url, headers)
         try:
             c_title = tree.xpath('//div[@class="sku-name"]//text()')[-1].strip()
-            xxxx = tree.xpath('//ul[@class="parameter2 p-parameter-list"]/li/text()')
+            title = c_title.split(' ')
+            print(c_title[:14])
+            title = title[-1] if len(title[-1]) > 10 else c_title[:15]
+            print(title[:15])
+            print('*'*50)
+            # xxxx = tree.xpath('//ul[@class="parameter2 p-parameter-list"]/li/text()')
             # print(xxxx)
-            for xx in xxxx:
-                if '商品毛重' in xx:
-                    lists = xx.split('：')
-                    c_weight = lists[1]
-                else:
-                    c_weight = ' '
-                if '商品产地' or '国产/进口' in xx:
-                    lists = xx.split('：')
-                    c_CO = lists[1]
-                else:
-                    c_CO = ' '
-                if '口味' in xx:
-                    lists = xx.split('：')
-                    c_taste = lists[1]
-                else:
-                    c_taste = ' '
-
-            print(c_title, c_price, c_weight, c_CO, c_taste, c_classify)
-            item = Shop(c_title, c_price, c_weight, c_CO, c_taste, c_classify, "images\\"+c_picture)
-            db.save_item(item)
+            # for xx in xxxx:
+            #     if '商品名称' in xx:
+            #         lists = xx.split('：')
+            #         c_title = lists[1]
+            #     else:
+            #         c_weight = ' '
+            #     if '商品毛重' in xx:
+            #         lists = xx.split('：')
+            #         c_weight = lists[1]
+            #     else:
+            #         c_weight = ' '
+            #     if '商品产地' or '国产/进口' in xx:
+            #         lists = xx.split('：')
+            #         c_CO = lists[1]
+            #     else:
+            #         c_CO = ' '
+            #     if '口味' in xx:
+            #         lists = xx.split('：')
+            #         c_taste = lists[1]
+            #     else:
+            #         c_taste = ' '
+            #
+            # print(c_title, c_price, c_weight, c_CO, c_taste, c_classify, "images\\"+c_picture)
+            # item = Shop(c_title, c_price, c_weight, c_CO, c_taste, c_classify, "images\\"+c_picture)
+            # db.save_item(item)
         except:
             pass
 

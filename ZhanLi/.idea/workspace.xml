@@ -2,16 +2,286 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="224decbb-7b09-4f27-91da-e2f556d97143" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Spiders/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spiders/JD_Shop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spiders/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spiders/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spiders/photo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spiders/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spiders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spiders/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spiders/JD_Shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Spiders/JD_Shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spiders/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Spiders/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Buyer/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Buyer/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Buyer/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/0071ae4ed0f3b4fa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/00ea4c520653b7aa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/00fdb3761d961b3e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/06b63431001c791b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/06effa36cc2b19fe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/07ff02363242a461.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/09f6d793aeacafb3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/0adea43fb5be7829.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/0b043e2d009140b0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/0bb4a43abac4f01d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/0f9ffe8c41bfb90c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/1278d7f214ba0e4d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/13accc89f5941549.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/15c31cf0d1144fec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/17d1353c7abc765c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/18bd4f96974065c8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/18c9b662deb4b5b5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/18d5f9ed037d26d4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/1_160x160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/1b618d7a8b008883.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/1c491a1b2d152b86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/1d6585e0a4a6d5ed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/1d91d56e964a4acd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/1e543d016c3e6463.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/1e8ee484bb74b431.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/1f1faff829e6987d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/1f8cb8dabe0216c9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/2020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/202b4d8f5d1a4a79.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/213336b6e41f8351.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/215d5679829bb0ae.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/222.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/224f7756638d7ce4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/233da85d9ae92c28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/2461a6a0c4d4b3db.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/267d37bdefa6064d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/2760afe6411c057f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/2984b5bdc32e0064.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/2b33bcc2370c45da.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/2c007b3144c383f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/2c4129b27f50d11f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/2de92638f32e329c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/2fe4df4b8c0ba40a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/301bb015489afb78.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/302eec5e5cf310a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/3158131fca1cc74b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/319231f92d7e2965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/3284cae0b8a6b800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/3292a648588fb82a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/32cb8b3cacef6f3d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/34b03739662632f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/350998a32ae33812.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/3812c928c2c5b658.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/3a5659816624c135.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/3b7a99dbd7403835.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/3e42aa3482fb5c94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/3f26fc10f269982b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/401718d10b2318a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/41277bb6807be4f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/41d2e680d9e8674a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/424cfa5be1be3293.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/425ef4ec47b855ab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/450c9972119bd87f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/480230fe83acc59c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/4b8e91bb35bf5165.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/4bec0e5b2d045827.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/4d4d9cc14a764892.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/4dd2edae47a4ba0d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/500e801f5b0c6384.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/513ab12d95a2ae17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5152bc4af34e9be5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/51746650f4f34017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/51a30618c1dd2c3b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/51ac41f88d1414dc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5604c0b0N24adfdba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5666499fN516259cf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/568483bdNf8bc3bad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5703da9fNb5d87195.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/578432c7eb7d4368.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/579f186bNa0879b20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/580d7fe0N69793577.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/581ffb02Nd1e0cbc7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/582e2415b8342013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/585bcf940a671643.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/59198a7fNef61de36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/595573a4N538100e8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/59583a1dN16748a8e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/596a2d6eN1d6aec6b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/59a6249eNc1e78709.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/59acb21fN6c950176.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/59aceff5Nc9440224.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/59e094ffNa5d58ce6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5a00722a69156cce.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5a0d39ddNcbf906c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5a1bfe32f8c0db27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5a2a4ca9Na8f5dc5a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5a30f676N29e74e73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5a3dcc62N22576e1c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5a4c3856N2ef195bf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5a6eddf0N876183fc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5a94c92eN0b846cd0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5aaf2227N5825fbb7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5acc2a01N54fa281e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5aebf871N9edd2d0f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5af95f1eN3d32bd81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5afa4e12N7f1bea18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5afbe7f0N32440776.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5afefcf4N4eec7b0e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5b051e8cNa2ad9dfb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5b2c9d8fNb8435739.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5b4bf281N951c93c3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5b51d9cbNd022f930.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5b55338eN5aa39f75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5b5804b3Nb7638cf7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5b583f33N9f9b4009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5b696be7Nf570f376.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5b712c88Na056b220.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5b763e55Nc8d63305.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5b7b9167N1a48e42d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5b84f27dN96232f00.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5b90e16bNe64846f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5b90e1abN1026438a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5b90ed39N7c16f253.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5b90f007N826e9f76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5badd9e0Ned128899.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5bc032c8N8fce4f38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5bc038b7N9b4ae741.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5bc0b5f8N27b1d529.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5bc69bcfN8030a03e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5be7f658N6b4ccfcc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5be7f676Nc6ee899e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5be8fd32Nddde8185.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5bee42cdae27c8fd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5bf8e3ffN1473760c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5cdb78e0Nfb5b89d5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5cdcca06N14f9800a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5cdcd4c9Nfa4e8ca0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5d840f1ae2d271d8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5f4f32131a9c561c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/5ffacc1fce25c04e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/613e3e626cf6edf6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/61eb762eb479d492.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/61f64043482e25a9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/625989961e082605.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/6306ae45689559b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/63dd7b45f8e6f944.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/63df21275b5917ed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/64ebf51f02470dd7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/64f811255ce24a72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/666.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/66a3d068660727be.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/66e761675c505790.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/68143c914dccc245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/6b472c380c383d80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/6c3025dff51d0f15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/702aaf37c4556e03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/753724494347d579.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/759ca78d5406268b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/779d01d954adf807.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/78cfccc7b47e36b3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/7b4651ae8d10af0e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/7fb9f24346d9257c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/82dad0c8aa74f217.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/8318645a83847a54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/835a1e843a58fecf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/86653bd6d30bdac5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/870017e7943874f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/8760827ea33ae8f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/8be0fde859cc2e7a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/8eb914e38ae44a95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/9532373e080e8c9d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/986ae0163d04f7b0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/9904196c2436fa51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/9a2ae2d4667749c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/9a8732cfc74748d3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/9aec2d5db5b3bedd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/9bfc2399a9fae0b3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/9f90c63e04ca4913.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/9fc73fb11e45c895.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/BxJk6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/EZA27501.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/a037d50a378c3943.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/a2082db0c159d823.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/a38628003237ad22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/a47a1394940b35c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/a5cd746ff2ed599d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/a657de764fa62797.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/a7da9f0f636b6a59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/a81c2d91fe04dd7f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/a95fc8be1e62c984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/acd411b6a685dfd5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/act3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/b261a5522a221357.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/b309f45716206ee0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/b3ce18658a1e7f0f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/b5b6a9c4a2c58c7b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/b671cefb4d4c722d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/b6c2f8c47e45f6fc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/b7798f2acf904331.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/b87f648f68cad12e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/b8abcb8b9449dc95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/ba3af03c4c232015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/ba5b63caa366087b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/bbefcaf2535b4aed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/bf916046fe6f18d2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/browse1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/c0eedbe66f45cf31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/c21debf6c3c25c46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/c261623a4436c3e1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/c355dcf8975a04d4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/c4071f9a7ec80494.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/c6ae6371c69ef7e1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/c77445d992e62ca2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/c7df30dcda9f90a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/c869c0c032b52a80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/c95ff7deb5139d95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/cb2a7b9b10ba367f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/cd61bbd33a8eb1b5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/d071a114c6f534c3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/d0bbaffbbe024915.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/d198bf17e5062af8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/d1f2abd61822ead8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/d297ec5f9ff9176a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/d3dfc2021dd9f836.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/d418a01a6123faa9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/d69d246c9acc10d0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/d6a6c941b6fb4180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/d6f3de729b489694.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/d7a7e16d1d7d431b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/d91e5ae1af03e4b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/d9c5d85f2ce7517d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/db3417699499f2df.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/dbcd05987498fa0d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/dc51473c6bec9d14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/dd10853465c328f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/e1ce0f0a6252d0f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/e28b1b0baab3f72e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/e2f4c21606bd5bc6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/e661f2770f493248.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/e889bf44e005a5d7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/e953bf3f61682951.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/ed4cbbf8e1651c20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/edf0fc01897bb156.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/ee2cc3ed53409750.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/eeb34950512bdada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/f02fd3f8a6cf8fe7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/f27068a6e77cc2d2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/f3f7d638c0604e9b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/f5dfba18f5581f8d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/f7b91bb8ff1bc095.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/f901f52a86bbad9d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/fc24a2d94b1d6839.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/fc34e741693898ae.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/fdd416f0682d0d3e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/ff0b616b97e7c020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/ffd8141a31746aa9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/item-pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/kouhong.jpg_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/images/youzi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/templates/buyer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Buyer/templates/buyer/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Buyer/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +294,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Buyer/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+            <state relative-caret-position="313">
+              <caret line="60" column="50" lean-forward="true" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -33,11 +303,24 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Buyer/templates/buyer/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="613">
+              <caret line="658" column="41" selection-start-line="658" selection-start-column="41" selection-end-line="658" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Buyer/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="679">
+              <caret line="81" column="57" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
+              <folding>
+                <element signature="e#1092#1307#0" />
+                <element signature="e#1347#1606#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,6 +334,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>点心</find>
+      <find>甜品</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -63,17 +352,18 @@
         <option value="$PROJECT_DIR$/Buyer/templates/buyer/register.html" />
         <option value="$PROJECT_DIR$/../../DjaggoFrameWork/Qshop/Buyer/views.py" />
         <option value="$PROJECT_DIR$/ZhanLi/urls.py" />
-        <option value="$PROJECT_DIR$/Buyer/views.py" />
         <option value="$PROJECT_DIR$/Buyer/templates/buyer/login.html" />
+        <option value="$PROJECT_DIR$/Buyer/templates/buyer/index.html" />
+        <option value="$PROJECT_DIR$/Buyer/views.py" />
         <option value="$PROJECT_DIR$/Buyer/models.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="820" />
-    <option name="y" value="110" />
-    <option name="width" value="985" />
-    <option name="height" value="840" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="977" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -98,7 +388,7 @@
               <item name="ZhanLi" type="b2602c69:ProjectViewProjectNode" />
               <item name="ZhanLi" type="462c0819:PsiDirectoryNode" />
               <item name="Buyer" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ZhanLi" type="b2602c69:ProjectViewProjectNode" />
@@ -184,21 +474,29 @@
       <workItem from="1572685559176" duration="906000" />
       <workItem from="1572694491247" duration="1084000" />
       <workItem from="1572757454056" duration="25000" />
+      <workItem from="1572760208394" duration="555000" />
+      <workItem from="1572873843319" duration="1947000" />
+      <workItem from="1573285280805" duration="629000" />
+      <workItem from="1573379186040" duration="3433000" />
+      <workItem from="1573441069071" duration="2854000" />
+      <workItem from="1573471022711" duration="221000" />
+      <workItem from="1573474022860" duration="4771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10498000" />
+    <option name="totallyTimeSpent" value="24908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2774799" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30939227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32407406" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39664805" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -207,7 +505,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.41899443" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.27793297" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -295,33 +593,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../DjaggoFrameWork/Qshop/Buyer/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="44" column="28" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../../DjaggoFrameWork/Qshop/Qshop/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Buyer/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../DjaggoFrameWork/Qshop/Buyer/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+            <element signature="e#211#372#0" />
+            <element signature="e#399#754#0" />
+            <element signature="e#780#1640#0" />
+            <element signature="e#1669#2501#0" />
+            <element signature="e#2528#2768#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/所有授课文档/第四阶段 数据分析/day06-pandas进阶/03-pandas时间数据.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/DjangoPath/Lib/site-packages/django/db/models/fields/related.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="781" column="8" selection-start-line="781" selection-start-column="8" selection-end-line="781" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Buyer/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        <state relative-caret-position="313">
+          <caret line="60" column="50" lean-forward="true" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Buyer/templates/buyer/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="658" column="41" selection-start-line="658" selection-start-column="41" selection-end-line="658" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Buyer/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="679">
+          <caret line="81" column="57" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
+          <folding>
+            <element signature="e#1092#1307#0" />
+            <element signature="e#1347#1606#0" />
+          </folding>
         </state>
       </provider>
     </entry>
