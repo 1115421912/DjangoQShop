@@ -22,7 +22,6 @@ class HarvestAddress(models.Model):
 	地址（必填）
 	邮箱（选填）
 	是否设置为默认地址
-
     """
     name = models.CharField(max_length=32)
     gender = models.CharField(max_length=4, null=True, blank=True)
@@ -47,16 +46,19 @@ class Retail(models.Model):
 class ShopType(models.Model):
     """
     糕点点心
-    果干蜜饯
-    坚果炒货
-    熟肉卤味
     饼干膨化
+    熟肉卤味
     豆干辣条
+    坚果炒货
+    果干蜜饯
+    巧克力果冻
     鱿鱼海味
-    酒水饮料
     茶水冲泡
+    酒水饮料
       """
     t_classify = models.CharField(max_length=32)  # 商品分类
+    t_picture = models.ImageField(upload_to='img')
+    r_id = models.ForeignKey('Retail', on_delete=models.CASCADE)  # 品牌id
 
 # 商品
 class Goods(models.Model):
@@ -84,6 +86,7 @@ class Goods(models.Model):
     g_price = models.CharField(max_length=12)#售价
     g_original_price = models.CharField(max_length=12)#原价
     g_inventory = models.IntegerField()#库存
+    g_photo = models.ImageField(upload_to='images')
 
     g_hits = models.IntegerField(null=True, blank=True)  # 点击量
     Whether_the_hot = models.CharField(max_length=4,default=0)#是否热门 0，不是热门
@@ -130,7 +133,7 @@ class Goods(models.Model):
 # 	评价
 # 	评价等级
 #     """
-#     pass
+#     pass           
 
 
 
