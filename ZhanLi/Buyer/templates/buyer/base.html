@@ -20,9 +20,18 @@
             <ul class="message-l">
                 <div class="topMessage">
                     <div class="menu-hd">
-                        <a href="/Buyer/login/" target="_top" class="h">亲，请登录</a>
-                        <span>|</span>
-                        <a href="/Buyer/register/" target="_top">免费注册</a>
+                        {% if username %}
+                            <a href="#" target="_top" class="h">{{ username }}</a>
+                            <span>|</span>
+                            <a href="#" target="_top" style="font-size: 12px">消息</a>
+                            <span>|</span>
+                            <a href="/Buyer/lt/" target="_top" style="font-size: 12px">退出</a>
+                        {% else %}
+                            <a href="/Buyer/login/" target="_top" class="h">亲，请登录</a>
+                            <span>|</span>
+                            <a href="/Buyer/register/" target="_top">免费注册</a>
+                        {% endif %}
+
                     </div>
                 </div>
             </ul>
@@ -52,10 +61,10 @@
 
             <div class="search-bar pr">
                 <a name="index_none_header_sysc" href="#"></a>
-                <form>
-                    <input id="searchInput" name="index_none_header_sysc" type="text" placeholder="搜索" autocomplete="off">
-                    <input id="ai-topsearch" class="submit am-btn" value="搜索" index="1" type="submit">
-                </form>
+                <div style="border: 1px solid red">
+                    <input id="searchInput" name="" type="text" placeholder="搜索">
+                    <input id="ai-topsearch" class="submit am-btn" value="搜索" type="submit" onclick="search()">
+                </div>
             </div>
         </div>
 
@@ -67,63 +76,62 @@
 
         {% endblock %}
     </div>
-    <div class="shopNav">
-        <div class="slideall">
-            <div class="long-title"><span class="all-goods">全部分类</span></div>
-            <div class="nav-cont">
-                <ul>
-                    <li class="index"><a href="#">首页</a></li>
-                    <li class="qc"><a href="#">闪购</a></li>
-                    <li class="qc"><a href="#">限时抢</a></li>
-                    <li class="qc"><a href="#">团购</a></li>
-                    <li class="qc last"><a href="#">大包装</a></li>
-                </ul>
-                <div class="nav-extra">
-                    <i class="am-icon-user-secret am-icon-md nav-user"></i><b></b>我的福利
-                    <i class="am-icon-angle-right" style="padding-left: 10px;"></i>
+    {% block shopNav %}
+        <div class="shopNav">
+            <div class="slideall">
+                <div class="long-title"><span class="all-goods">全部分类</span></div>
+                <div class="nav-cont">
+                    <ul>
+                        <li class="index"><a href="/">首页</a></li>
+                        <li class="qc"><a href="#">闪购</a></li>
+                        <li class="qc"><a href="#">限时抢</a></li>
+                        <li class="qc"><a href="#">团购</a></li>
+                        <li class="qc last"><a href="#">大包装</a></li>
+                    </ul>
                 </div>
-            </div>
-            <!--侧边导航 -->
-            {% block navfull %}
+                <!--侧边导航 -->
+                {% block navfull %}
+
+                {% endblock %}
+
+            {% block marqueen %}
 
             {% endblock %}
 
-        {% block marqueen %}
-
-        {% endblock %}
-
+            </div>
         </div>
-    </div>
+    {% endblock %}
+
     <div class="shopMainbg">
         <div class="shopMain" id="shopmain">
             {% block shopMain %}
 
             {% endblock %}
+            {% block footer %}
+                <div class="footer " style="float: bottom">
+                    <div class="footer-hd ">
+                        <p>
+                            <b>|</b>
+                            <a href="/">商城首页</a>
+                            <b>|</b>
+                            <a href="https://www.alipay.com/">支付宝</a>
+                            <b>|</b>
+                        </p>
+                    </div>
+                    <div class="footer-bd ">
+                        <p>
+                            <a href="#">合作伙伴</a>
+                            <a href="#">联系我们</a>
+                            <em>© 2019- zhanli.com 版权所有 - Collect from</em>
+                        </p>
+                    </div>
+                </div>
+            {% endblock %}
 
-            <div class="footer ">
-                <div class="footer-hd ">
-                    <p>
-                        <b>|</b>
-                        <a href="/">商城首页</a>
-                        <b>|</b>
-                        <a href="https://www.alipay.com/">支付宝</a>
-                        <b>|</b>
-                    </p>
-                </div>
-                <div class="footer-bd ">
-                    <p>
-                        <a href="#">合作伙伴</a>
-                        <a href="#">联系我们</a>
-                        <em>© 2019- zhanli.com 版权所有 - Collect from</em>
-                    </p>
-                </div>
-            </div>
         </div>
     </div>
 
-    {% block tip %}
-
-    {% endblock %}
+    {% block tip %}{% endblock %}
 
     <script src="/static/buyer/AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
     <script src="/static/buyer/AmazeUI-2.4.2/assets/js/amazeui.min.js"></script>
@@ -159,12 +167,22 @@
     $(this).addClass("hover");
     $(this).children("div.menu-in").css("display", "block")
     }, function() {
-    $(this).removeClass("hover")
+    $(this).removeClass("hover");
     $(this).children("div.menu-in").css("display", "none")
     });
     })
     </script>
 
+    <!--搜索引擎-->
+    <script>
+        function search() {
+            var keywords = $('#searchInput').val();
+            if (keywords){
+                var url = '/Buyer/search/?type=k&keywords='+keywords;
+                window.location.href = url
+            }
+        }
+    </script>
     {% block script %}{% endblock %}
 </body>
 

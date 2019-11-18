@@ -48,22 +48,61 @@ def register(request):
             hint = '邮箱不能为空'
     return render(request, 'buyer/register.html', locals())
 
+def logo_out(request):
+    url = request.META.get('HTTP_REFERER', '/Buyer/index/')
+    response = HttpResponseRedirect(url)
+    keys = request.COOKIES.keys()
+    for key in keys:
+        response.delete_cookie(key)
+    del request.session['email']
+    return response
+
+def UserName(request):
+    email = request.COOKIES.get('email')
+    if email:
+        u = User.objects.filter(email=email).first()
+        if u.username:
+            username = u.username
+        else:
+            username = email
+    else:
+        username = False
+    return username
+
 def index(request):
+    username = UserName(request)
 
     shop_type = ShopType.objects.all()
-    # print(shop_type.t_classify)
-    cake = Goods.objects.filter(t_id=1)
-    biscuit = Goods.objects.filter(t_id='2')
-    # cooked_food = Goods.objects.filter(t_id='3')
-    # dried_tofu = Goods.objects.filter(t_id='4')
-    # nut = Goods.objects.filter(t_id='5')
-    # preserved_fruit = Goods.objects.filter(t_id='6')
-    # chocolate = Goods.objects.filter(t_id='7')
-    # seafood = Goods.objects.filter(t_id='8')
-    # tea = Goods.objects.filter(t_id='9')
-    # liquor = Goods.objects.filter(t_id='10')
+    result = []
+    for ty in shop_type:
+        goods = ty.goods_set.order_by('g_hits')
+        if len(goods) >= 8:
+            goods = goods[:8]
+            result.append({'type': ty, 'goods_list': goods})
+        else:
+            result.append({'type': ty, 'goods_list': goods})
+
     return render(request, 'buyer/index.html',locals())
 
 def base(request):
     return render(request, 'buyer/base.html')
+
+def goods_info(request,id):
+    username = UserName(request)
+    good = Goods.objects.get(id=int(id))
+
+    info = good.g_introduction
+    info = info.split(' ')
+    return render(request, 'buyer/goods_info.html', locals())
+
+def search(request):
+    goods_type = request.GET.get('type')
+    keywords = request.GET.get('keywords')
+    if goods_type == 't':
+        title = '查看更多'
+        goods_list = Goods.objects.filter(t_id=int(keywords)).all()
+    elif goods_type == 'k':
+        title = '商品搜索'
+        goods_list = Goods.objects.filter(g_name__contains=keywords)
+    return render(request, 'buyer/search.html', locals())
 # Create your views here.
