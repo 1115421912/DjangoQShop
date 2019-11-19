@@ -206,7 +206,8 @@
             </li>
             <li>
                 <div class="clearfix tb-btn tb-btn-basket theme-login">
-                    <a id="LikBasket" title="加入购物车" href="#"><i></i>加入购物车</a>
+                    <input type="button" value="加入购物车" id="LikBasket" onclick="add_cart()" style="width: 98px;height: 30px;color: #F03726;background: #FFEDED;border: 1px solid red;text-align: center">
+{#                    <a id="LikBasket" title="加入购物车" href="#"><i></i>加入购物车</a>#}
                 </div>
             </li>
         </div>
@@ -322,7 +323,7 @@
                         </ul>
                         <div class="clear"></div>
                     </div>
-
+                    {#商品细节--图片#}
                     <div class="details">
                         <div class="attr-list-hd after-market-hd">
                             <h4>商品细节</h4>
@@ -340,7 +341,7 @@
                     <div class="clear"></div>
 
                 </div>
-
+                {#评论块#}
                 <div class="am-tab-panel am-fade">
 
                     <div class="actor-new">
@@ -825,7 +826,7 @@
                     </div>
 
                 </div>
-
+                {#猜你喜欢#}
                 <div class="am-tab-panel am-fade">
                     <div class="like">
                         <ul class="am-avg-sm-2 am-avg-md-3 am-avg-lg-4 boxes">
@@ -1044,5 +1045,16 @@
                 $(".jqzoom").attr('rel', $(this).find("img").attr("big"));
             });
         });
+    </script>
+    {#添加购物车#}
+    <script>
+        function add_cart() {
+            var good_num = $('#text_box').val();
+            console.log(good_num);
+            if (good_num){
+                var url = '/Buyer/success/?type=a&good_id='+{{ good.id }}+'&good_num='+good_num;
+                window.location.href = url
+            }
+        }
     </script>
 {% endblock %}

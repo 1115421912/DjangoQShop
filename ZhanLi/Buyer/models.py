@@ -91,23 +91,33 @@ class Goods(models.Model):
     g_hits = models.IntegerField(null=True, blank=True)  # 点击量
     Whether_the_hot = models.CharField(max_length=4,default=0)#是否热门 0，不是热门
     Whether_the_new = models.CharField(max_length=4,default=0)#是否新品 0，不是新品
-#
-# #购物车
-# class shopping_cart(models.Model):
-#     """
-#     用户id
-#     商品id
-#     店家id
-#     商品名称
-#     商品价格
-#     商品数量
-#     商品图片
-#     总价
-#     添加时间
-#     是否有货（库存）
-#     """
-#     pass
-#
+
+#购物车
+class ShoppingCart(models.Model):
+    """
+    用户id
+    商品id
+    店家id
+    商品名称
+    商品价格
+    商品数量
+    商品图片
+    总价
+    添加时间
+    是否有货（库存）
+    """
+    u_id = models.ForeignKey('User', on_delete=models.CASCADE)
+    g_id = models.ForeignKey('Goods', on_delete=models.CASCADE)
+    r_id = models.ForeignKey('Retail', on_delete=models.CASCADE)
+    c_name = models.CharField(max_length=32)
+    c_price = models.CharField(max_length=12)
+    c_num = models.IntegerField()
+    c_photo = models.ImageField(upload_to='images')
+    c_price_sum = models.CharField(max_length=32)
+    c_add_time = models.DateTimeField()
+    c_inventory = models.IntegerField()#库存
+
+
 # #订单
 # class order_for_goods(models.Model):
 #     """
@@ -121,7 +131,9 @@ class Goods(models.Model):
 #     订单时间创建时间
 #     订单完成时间
 #     """
-#     pass
+#     u_id = models.ForeignKey('User', on_delete=models.CASCADE)
+#     order_reference = models.CharField(32)
+
 #
 # #评价
 # class Assessment(models.Model):

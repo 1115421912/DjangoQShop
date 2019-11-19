@@ -1,0 +1,54 @@
+{% extends 'buyer/base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block shopNav %}{% endblock %}
+
+{% block shopMain %}
+    <div class="take-delivery" style="margin-top: -12px;margin-right: -3px">
+        {% if title == '付款成功' %}
+            <div class="status">
+            <h2>您已成功付款</h2>
+            <br>
+            <div class="successInfo">
+                <ul>
+                    <li>付款金额<em>¥9.90</em></li>
+                    <div class="user-info">
+                        <p>收货人：艾迪</p>
+                        <p>联系电话：15871145629</p>
+                        <p>收货地址：湖北省 武汉市 武昌区 东湖路75号众环大厦</p>
+                    </div>
+                    请认真核对您的收货信息，如有错误请联系客服
+                </ul>
+                <div class="option">
+                    <span class="info">您可以</span>
+                    <a href="../person/order.html" class="J_MakePoint">查看<span>已买到的宝贝</span></a>
+                    <a href="../person/orderinfo.html" class="J_MakePoint">查看<span>交易详情</span></a>
+                </div>
+            </div>
+        </div>
+        {% elif title == '添加购物车成功' or title == '添加购物车失败'  %}
+            <div class="status">
+            <h2>{{ title }}</h2>
+            <br>
+            <div class="successInfo">
+                <p>
+                    <a href="#">返回购物车</a>，
+                    <a href="/">返回主页</a>。
+                </p>
+                <div class="option">
+                    <span class="info">您可以</span>
+                    <a href="../person/order.html" class="J_MakePoint">查看<span>已买到的宝贝</span></a>
+                    <a href="../person/orderinfo.html" class="J_MakePoint">查看<span>交易详情</span></a>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+    </div>
+{% endblock %}
+
+{% block script %}
+    <link href="/static/buyer/css/sustyle.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/static/buyer/basic/js/jquery-1.7.min.js"></script>
+{% endblock %}

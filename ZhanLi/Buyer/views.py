@@ -1,6 +1,7 @@
+import time
 from django.shortcuts import render
 from django.shortcuts import HttpResponseRedirect
-from Buyer.models import User, Goods, ShopType
+from Buyer.models import User, Goods, ShopType, ShoppingCart, Retail
 
 def login(request):
     hint = ''
@@ -69,6 +70,16 @@ def UserName(request):
         username = False
     return username
 
+def loginValid(fun):
+    def inner(request, *args, **kwargs):
+        cookie_email = request.COOKIES.get('email')
+        session_email = request.session.get('email')
+        if cookie_email and session_email and cookie_email == session_email:
+            return fun(request, *args, **kwargs)
+        else:
+            return HttpResponseRedirect('/Buyer/login')
+    return inner
+
 def index(request):
     username = UserName(request)
 
@@ -96,6 +107,8 @@ def goods_info(request,id):
     return render(request, 'buyer/goods_info.html', locals())
 
 def search(request):
+    username = UserName(request)
+
     goods_type = request.GET.get('type')
     keywords = request.GET.get('keywords')
     if goods_type == 't':
@@ -105,4 +118,86 @@ def search(request):
         title = '商品搜索'
         goods_list = Goods.objects.filter(g_name__contains=keywords)
     return render(request, 'buyer/search.html', locals())
+
+@loginValid
+def success(request):
+    email = request.COOKIES.get('email')
+    username = UserName(request)
+
+    success_type = request.GET.get('type')
+    good_id = request.GET.get('good_id')
+    good_num = request.GET.get('good_num')
+    if success_type == 'a':
+        try:
+            good = Goods.objects.filter(id=int(good_id)).first()
+            user = User.objects.filter(email=email).first()
+            cart = ShoppingCart()
+            add_good = ShoppingCart.objects.filter(g_id=good_id).first()
+            if add_good:
+                add_good.c_num += int(good_num)
+
+                price_sum = int(good_num) * float(good.g_price)
+                price_sum = round(price_sum, 2)
+                # print('1:', price_sum)
+                add_good.c_price_sum = price_sum + float(add_good.c_price_sum)
+
+                add_good.save()
+            else:
+                r_id = good.r_id
+                cart.r_id = r_id
+
+                cart.g_id = good
+                cart.u_id = user
+                cart.c_num = int(good_num)
+                cart.c_name = good.g_name
+                cart.c_price = good.g_price
+                cart.c_photo = good.g_photo
+                cart.c_inventory = good.g_inventory
+                cart.c_add_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+
+                price_sum = float(good.g_price) * int(good_num)
+                price_sum = round(price_sum, 2)#保留两位小数，并四舍五入
+                # print('2:', price_sum)
+                cart.c_price_sum = price_sum
+
+                cart.save()
+
+            title = '添加购物车成功'
+        except:
+            title = '添加购物车失败'
+
+    elif success_type == 'f':
+        try:
+
+            title = '付款成功'
+        except:
+            title = '付款失败'
+
+    return render(request, 'buyer/success.html', locals())
+
+@loginValid
+def shopping_cart(request):
+    username = UserName(request)
+    email = request.COOKIES.get('email')
+    user = User.objects.filter(email=email).first()
+    goods = ShoppingCart.objects.filter(u_id=user).all()
+
+    #对店家进行分类
+    retail = []
+    for i in goods:
+        retail.append(i.r_id)
+    retail = list(set(retail))#列表去重
+
+    #让店家与其商品以键值对存储
+    c = {}
+    for n in retail:
+        l = []
+        for m in goods:
+            if m.r_id == n:
+                l.append(m)
+        c[n.r_name] = l
+
+    return render(request, 'buyer/shopcart.html', locals())
+
+#订单编号：str(time.time() * 1000000)[:-2]
 # Create your views here.
