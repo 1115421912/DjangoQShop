@@ -9,6 +9,8 @@ urlpatterns = [
     path('sc/', shopping_cart),
     path('success/', success),
 
+    path('aql_add/', aql_add),
+
     path('search/', search),
     # path('goods_info/', goods_info),
     re_path('goods_info/(?P<id>\d+)', goods_info),

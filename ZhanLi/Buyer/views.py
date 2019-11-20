@@ -1,5 +1,5 @@
 import time
-from django.shortcuts import render
+from django.shortcuts import render,HttpResponse
 from django.shortcuts import HttpResponseRedirect
 from Buyer.models import User, Goods, ShopType, ShoppingCart, Retail
 
@@ -149,7 +149,7 @@ def success(request):
                 cart.g_id = good
                 cart.u_id = user
                 cart.c_num = int(good_num)
-                cart.c_name = good.g_name
+                cart.c_name = good.g_title
                 cart.c_price = good.g_price
                 cart.c_photo = good.g_photo
                 cart.c_inventory = good.g_inventory
@@ -181,23 +181,39 @@ def shopping_cart(request):
     email = request.COOKIES.get('email')
     user = User.objects.filter(email=email).first()
     goods = ShoppingCart.objects.filter(u_id=user).all()
+    if goods:
+        #对店家进行分类
+        retail = []
+        for i in goods:
+            retail.append(i.r_id)
+        retail = list(set(retail))#列表去重
 
-    #对店家进行分类
-    retail = []
-    for i in goods:
-        retail.append(i.r_id)
-    retail = list(set(retail))#列表去重
+        #让店家与其商品以键值对存储
+        c = {}
+        for n in retail:
+            l = []
+            for m in goods:
+                if m.r_id == n:
+                    l.append(m)
+            c[n.r_name] = l
+    else:
+        wu = '你得购物车是空得，快去添加吧！！！'
 
-    #让店家与其商品以键值对存储
-    c = {}
-    for n in retail:
-        l = []
-        for m in goods:
-            if m.r_id == n:
-                l.append(m)
-        c[n.r_name] = l
-
+    # good_num = request.POST.get("num")
+    # print(good_num)
     return render(request, 'buyer/shopcart.html', locals())
+
+def aql_add(request):
+
+    good_num = request.POST.get("num")
+    good_name = request.POST.get("name")
+    good_price_sum = request.POST.get("price_sum")
+    if good_name:
+        good = ShoppingCart.objects.filter(c_name=good_name).first()
+        good.c_num = int(good_num)
+        good.c_price_sum = float(good_price_sum)
+        good.save()
+    return HttpResponse("OK")
 
 #订单编号：str(time.time() * 1000000)[:-2]
 # Create your views here.
