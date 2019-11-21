@@ -67,7 +67,7 @@
                                                 </div>
                                                 <div class="item-info">
                                                     <div class="item-basic-info">
-                                                        <a id="aaaa" href="/Buyer/goods_info/{{ good.g_id }}" target="_blank" class="item-title J_MakePoint" data-point="tbcart.8.11">{{ good.c_name }}</a>
+                                                        <a id="aaaa" href="/Buyer/goods_info/{{ good.g_id.id }}" target="_blank" class="item-title J_MakePoint" data-point="tbcart.8.11">{{ good.c_name }}</a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -94,7 +94,7 @@
                                                     <div class="item-amount ">
                                                         <div class="sl">
                                                             <input class="min am-btn" name="" type="button" value="-" />
-                                                            <input class="text_box" name="" type="text" value="{{ good.c_num }}" style="width:30px;" />
+                                                            <input class="text_box" name="" type="text" value="{{ good.c_num }}" style="width:30px;" oninput = "value=value.replace(/[^\d]/g,'')"/>
                                                             <input class="add am-btn" name="" type="button" value="+" />
                                                         </div>
                                                     </div>
@@ -284,7 +284,15 @@
                     $(this).on('input propertychange',
                         function () {
                             var good_num = $(this).val();
+
                             good_num = Number(good_num);
+                            if (good_num <= 1){
+                            good_num = 1
+                            }else {
+                                good_num = good_num -1
+                            }
+
+                            $(this).val(good_num);
                             var good_name = $(this).parents('li').prev().prev().prev().children().last().children().children().text().replace(/[\r\n]/g,"");
                             good_name = String(good_name);
                             var good_price = $(this).parents('li').prev().text().replace(/[\r\n]/g,"");

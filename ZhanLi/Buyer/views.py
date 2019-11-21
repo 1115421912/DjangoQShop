@@ -98,7 +98,7 @@ def index(request):
 def base(request):
     return render(request, 'buyer/base.html')
 
-def goods_info(request,id):
+def goods_info(request, id):
     username = UserName(request)
     good = Goods.objects.get(id=int(id))
 
@@ -181,6 +181,7 @@ def shopping_cart(request):
     email = request.COOKIES.get('email')
     user = User.objects.filter(email=email).first()
     goods = ShoppingCart.objects.filter(u_id=user).all()
+
     if goods:
         #对店家进行分类
         retail = []
@@ -203,6 +204,30 @@ def shopping_cart(request):
     # print(good_num)
     return render(request, 'buyer/shopcart.html', locals())
 
+def goods_order(request):
+    order_type = request.GET.get('type')
+    if order_type == 'o':
+        # 单个商品
+        good_id = request.GET.get('good_id')
+        good_num = request.GET.get('good_num')
+        good = Goods.objects.filter(id=good_id).first()
+        good_price = good.g_price
+        good_title = good.g_title
+        g_photo = good.g_photo
+        good_price_sum = float(good_price) * int(good_num)
+        good_price_sum = round(good_price_sum, 2)
+
+    elif order_type == 'm':
+        # 多个商品
+        pass
+
+    return render(request, 'buyer/goods_order.html', locals())
+
+@loginValid
+def address(request):
+    return render(request, 'buyer/address.html', locals())
+
+@loginValid
 def aql_add(request):
 
     good_num = request.POST.get("num")
@@ -216,6 +241,7 @@ def aql_add(request):
         good.save()
     return HttpResponse("OK")
 
+@loginValid
 def aql_del(request):
     good_name = request.POST.get("name")
     good = ShoppingCart.objects.filter(c_name=good_name).first()

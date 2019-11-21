@@ -8,6 +8,8 @@ urlpatterns = [
     path('lt/', logo_out),
     path('sc/', shopping_cart),
     path('success/', success),
+    path('goods_order/', goods_order),
+    path('address/', address),
 
     path('aql_add/', aql_add),
     path('aql_del/', aql_del),

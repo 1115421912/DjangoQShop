@@ -201,7 +201,7 @@
             </div>
             <li>
                 <div class="clearfix tb-btn tb-btn-buy theme-login">
-                    <a id="LikBuy" title="点此按钮到下一步确认购买信息" href="#">立即购买</a>
+                    <input type="button" id="LikBuy" value="立即购买" onclick="down_order()" style="width: 98px;height: 30px;color: #F03726;background: #FFEDED;border: 1px solid red;text-align: center">
                 </div>
             </li>
             <li>
@@ -1053,6 +1053,17 @@
             console.log(good_num);
             if (good_num){
                 var url = '/Buyer/success/?type=a&good_id='+{{ good.id }}+'&good_num='+good_num;
+                window.location.href = url
+            }
+        }
+    </script>
+    {#下单#}
+    <script>
+        function down_order() {
+            var good_num = $('#text_box').val();
+            console.log(good_num);
+            if (good_num){
+                var url = '/Buyer/goods_order/?type=o&good_id='+{{ good.id }}+'&good_num='+good_num;
                 window.location.href = url
             }
         }
