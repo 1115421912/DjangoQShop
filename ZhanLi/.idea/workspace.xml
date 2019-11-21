@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="224decbb-7b09-4f27-91da-e2f556d97143" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/js/address.js" beforeDir="false" afterPath="$PROJECT_DIR$/Buyer/static/buyer/js/address.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Buyer/static/buyer/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/Buyer/static/buyer/js/jquery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Buyer/templates/buyer/shopcart.html" beforeDir="false" afterPath="$PROJECT_DIR$/Buyer/templates/buyer/shopcart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Buyer/templates/buyer/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/Buyer/templates/buyer/success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Buyer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Buyer/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Buyer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Buyer/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/buyer/basic/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/buyer/basic/css/demo.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,43 +23,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Buyer/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="214" column="19" lean-forward="true" selection-start-line="214" selection-start-column="19" selection-end-line="214" selection-end-column="19" />
+            <state relative-caret-position="128">
+              <caret line="221" column="12" lean-forward="true" selection-start-line="221" selection-start-column="12" selection-end-line="221" selection-end-column="12" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <element signature="e#192#969#0" />
-                <element signature="e#998#1672#0" />
-                <element signature="e#1701#1941#0" />
-                <element signature="e#1970#2228#0" />
-                <element signature="e#3808#5573#0" />
-                <element signature="e#4059#5352#0" />
-                <element signature="e#5438#5513#0" />
-                <element signature="e#5821#6154#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Buyer/templates/buyer/shopcart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="268" column="52" lean-forward="true" selection-start-line="268" selection-start-column="52" selection-end-line="268" selection-end-column="52" />
+            <state relative-caret-position="249">
+              <caret line="328" column="56" lean-forward="true" selection-start-line="328" selection-start-column="56" selection-end-line="328" selection-end-column="56" />
               <folding>
                 <element signature="n#block#1;n#!!top" />
-                <element signature="e#235#1156#0#HTML" />
-                <element signature="e#1561#1580#0#HTML" expanded="true" />
-                <element signature="e#1592#1598#0#HTML" expanded="true" />
-                <element signature="e#1598#1604#0#HTML" expanded="true" />
-                <element signature="e#1752#1756#0#HTML" expanded="true" />
-                <element signature="e#1756#1760#0#HTML" expanded="true" />
-                <element signature="e#5293#5884#0#HTML" />
-                <element signature="e#5631#5650#0#HTML" expanded="true" />
-                <element signature="e#7042#8523#0#HTML" />
-                <element signature="e#9024#9094#0#HTML" expanded="true" />
-                <element signature="e#8903#9051#0#HTML" />
-                <element signature="e#9114#9148#0#HTML" expanded="true" />
-                <element signature="e#8533#9102#0#HTML" />
+                <element signature="e#2197#2654#0#HTML" />
+                <element signature="e#3687#4367#0#HTML" />
+                <element signature="e#4412#5284#0#HTML" />
+                <element signature="e#4485#4960#0#HTML" />
+                <element signature="e#4906#5120#0#HTML" />
+                <element signature="e#5329#6260#0#HTML" />
+                <element signature="e#5836#5855#0#HTML" expanded="true" />
+                <element signature="e#6305#6625#0#HTML" />
+                <element signature="e#6376#6575#0#HTML" />
+                <element signature="e#6740#7037#0#HTML" />
+                <element signature="e#7412#9013#0#HTML" />
+                <element signature="e#7535#7775#0#HTML" />
+                <element signature="e#7851#8050#0#HTML" />
+                <element signature="e#8067#8993#0#HTML" />
+                <element signature="e#8307#8488#0#HTML" />
+                <element signature="e#8536#8722#0#HTML" />
+                <element signature="e#9038#9407#0#HTML" />
+                <element signature="e#9433#10002#0#HTML" />
+                <element signature="e#10955#11168#0#HTML" />
+                <element signature="e#11272#11513#0#HTML" />
               </folding>
             </state>
           </provider>
@@ -72,16 +67,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Buyer/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="300">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Buyer/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
+            <state relative-caret-position="613">
               <caret line="115" column="15" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="15" />
               <folding>
                 <element signature="e#1350#1635#0" />
@@ -102,7 +97,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;../AmazeUI-2.4.2/</find>
       <find>&quot;../js</find>
       <find>slideall</find>
       <find>店铺</find>
@@ -129,9 +123,10 @@
       <find>r.handle</find>
       <find>.add</find>
       <find>js</find>
-      <find>item-title</find>
       <find>J_Price</find>
       <find>J_ItemSum</find>
+      <find>item-info</find>
+      <find>item-title</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;/static/buyer/</replace>
@@ -160,20 +155,19 @@
         <option value="$PROJECT_DIR$/Buyer/templates/buyer/index.html" />
         <option value="$PROJECT_DIR$/Buyer/templates/buyer/base.html" />
         <option value="$PROJECT_DIR$/Buyer/templates/buyer/success.html" />
-        <option value="$PROJECT_DIR$/Buyer/urls.py" />
         <option value="$PROJECT_DIR$/Buyer/static/buyer/js/jquery.js" />
         <option value="$PROJECT_DIR$/Buyer/static/buyer/AmazeUI-2.4.2/assets/js/jjj" />
         <option value="$PROJECT_DIR$/Buyer/static/buyer/js/address.js" />
         <option value="$PROJECT_DIR$/static/buyer/basic/css/demo.css" />
         <option value="$PROJECT_DIR$/Buyer/views.py" />
+        <option value="$PROJECT_DIR$/Buyer/urls.py" />
         <option value="$PROJECT_DIR$/Buyer/templates/buyer/shopcart.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="70" />
-    <option name="width" value="980" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="width" value="1123" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -194,32 +188,6 @@
               <item name="ZhanLi" type="b2602c69:ProjectViewProjectNode" />
               <item name="ZhanLi" type="462c0819:PsiDirectoryNode" />
               <item name="Buyer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhanLi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhanLi" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhanLi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhanLi" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="buyer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhanLi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhanLi" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="buyer" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhanLi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhanLi" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="buyer" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -396,22 +364,25 @@
       <workItem from="1574142795094" duration="17815000" />
       <workItem from="1574235691244" duration="69000" />
       <workItem from="1574236014720" duration="21412000" />
+      <workItem from="1574262840848" duration="105000" />
+      <workItem from="1574300519542" duration="15124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125869000" />
+    <option name="totallyTimeSpent" value="141098000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.2647453" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49720672" weight="0.1769437" />
       <window_info id="Structure" order="1" sideWeight="0.5027933" side_tool="true" weight="0.16420911" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34357542" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.57821226" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4511173" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -439,13 +410,15 @@
           <line>129</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Buyer/views.py</url>
+          <line>211</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ZhanLi/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -625,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda3/envs/DjangoPath/Lib/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Buyer/templates/buyer/goods_info.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="613">
@@ -756,13 +722,7 @@
         <state relative-caret-position="-27" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Buyer/static/buyer/AmazeUI-2.4.2/assets/js/jjj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="1499" column="29" lean-forward="true" selection-start-line="1499" selection-start-column="29" selection-end-line="1499" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyer/static/buyer/AmazeUI-2.4.2/assets/js/jjj" />
     <entry file="file://$PROJECT_DIR$/Buyer/static/buyer/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
@@ -827,60 +787,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Buyer/urls.py">
+    <entry file="file://$PROJECT_DIR$/../../DjaggoFrameWork/Qshop/Buyer/templates/buyer/cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="150">
+          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Buyer/models.py">
+    <entry file="file://D:/Anaconda3/envs/DjangoPath/Lib/site-packages/django/core/handlers/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="115" column="15" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="15" />
-          <folding>
-            <element signature="e#1350#1635#0" />
-          </folding>
+        <state relative-caret-position="509">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Buyer/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="214" column="19" lean-forward="true" selection-start-line="214" selection-start-column="19" selection-end-line="214" selection-end-column="19" />
+        <state relative-caret-position="128">
+          <caret line="221" column="12" lean-forward="true" selection-start-line="221" selection-start-column="12" selection-end-line="221" selection-end-column="12" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#192#969#0" />
-            <element signature="e#998#1672#0" />
-            <element signature="e#1701#1941#0" />
-            <element signature="e#1970#2228#0" />
-            <element signature="e#3808#5573#0" />
-            <element signature="e#4059#5352#0" />
-            <element signature="e#5438#5513#0" />
-            <element signature="e#5821#6154#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyer/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Buyer/templates/buyer/shopcart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="268" column="52" lean-forward="true" selection-start-line="268" selection-start-column="52" selection-end-line="268" selection-end-column="52" />
+        <state relative-caret-position="249">
+          <caret line="328" column="56" lean-forward="true" selection-start-line="328" selection-start-column="56" selection-end-line="328" selection-end-column="56" />
           <folding>
             <element signature="n#block#1;n#!!top" />
-            <element signature="e#235#1156#0#HTML" />
-            <element signature="e#1561#1580#0#HTML" expanded="true" />
-            <element signature="e#1592#1598#0#HTML" expanded="true" />
-            <element signature="e#1598#1604#0#HTML" expanded="true" />
-            <element signature="e#1752#1756#0#HTML" expanded="true" />
-            <element signature="e#1756#1760#0#HTML" expanded="true" />
-            <element signature="e#5293#5884#0#HTML" />
-            <element signature="e#5631#5650#0#HTML" expanded="true" />
-            <element signature="e#7042#8523#0#HTML" />
-            <element signature="e#9024#9094#0#HTML" expanded="true" />
-            <element signature="e#8903#9051#0#HTML" />
-            <element signature="e#9114#9148#0#HTML" expanded="true" />
-            <element signature="e#8533#9102#0#HTML" />
+            <element signature="e#2197#2654#0#HTML" />
+            <element signature="e#3687#4367#0#HTML" />
+            <element signature="e#4412#5284#0#HTML" />
+            <element signature="e#4485#4960#0#HTML" />
+            <element signature="e#4906#5120#0#HTML" />
+            <element signature="e#5329#6260#0#HTML" />
+            <element signature="e#5836#5855#0#HTML" expanded="true" />
+            <element signature="e#6305#6625#0#HTML" />
+            <element signature="e#6376#6575#0#HTML" />
+            <element signature="e#6740#7037#0#HTML" />
+            <element signature="e#7412#9013#0#HTML" />
+            <element signature="e#7535#7775#0#HTML" />
+            <element signature="e#7851#8050#0#HTML" />
+            <element signature="e#8067#8993#0#HTML" />
+            <element signature="e#8307#8488#0#HTML" />
+            <element signature="e#8536#8722#0#HTML" />
+            <element signature="e#9038#9407#0#HTML" />
+            <element signature="e#9433#10002#0#HTML" />
+            <element signature="e#10955#11168#0#HTML" />
+            <element signature="e#11272#11513#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyer/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="115" column="15" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="15" />
+          <folding>
+            <element signature="e#1350#1635#0" />
           </folding>
         </state>
       </provider>

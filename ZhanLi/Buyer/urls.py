@@ -10,6 +10,7 @@ urlpatterns = [
     path('success/', success),
 
     path('aql_add/', aql_add),
+    path('aql_del/', aql_del),
 
     path('search/', search),
     # path('goods_info/', goods_info),

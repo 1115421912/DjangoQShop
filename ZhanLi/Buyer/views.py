@@ -207,6 +207,7 @@ def aql_add(request):
 
     good_num = request.POST.get("num")
     good_name = request.POST.get("name")
+
     good_price_sum = request.POST.get("price_sum")
     if good_name:
         good = ShoppingCart.objects.filter(c_name=good_name).first()
@@ -214,6 +215,14 @@ def aql_add(request):
         good.c_price_sum = float(good_price_sum)
         good.save()
     return HttpResponse("OK")
+
+def aql_del(request):
+    good_name = request.POST.get("name")
+    good = ShoppingCart.objects.filter(c_name=good_name).first()
+    if good:
+        good.delete()
+    return HttpResponse("OK")
+
 
 #订单编号：str(time.time() * 1000000)[:-2]
 # Create your views here.
